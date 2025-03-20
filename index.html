@@ -32,16 +32,30 @@
         margin-right: auto;
         width: 50%;
       }
-      a:link, a:visited {
+      .button:link {
         background-color: #e8729d;
         color: white;
-        padding: 14px 25px;
         text-align: center;
         text-decoration: none;
         display: inline-block;
+        padding: 14px 25px;
       }
-      a:hover, a:active {
+      .button:visited {
+        background-color: #e8729d;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        padding: 14px 25px;
+      }
+      .button:hover {
         background-color: pink;
+      }
+      .button:active {
+        background-color: pink;
+      }
+      .text-link {
+        color: #e8729d;
       }
     </style>
   </head>
@@ -50,10 +64,10 @@
 
     <div class="content">
       <nav>
-        <a href="./index.html">Home</a>
-        <a href="./research.html">Research</a>
-        <a href="./teaching.html">Teaching</a>
-        <a href="./service.html">Service</a>
+        <a href="./index.html" class="button">Home</a>
+        <a href="./research.html" class="button">Research</a>
+        <a href="./teaching.html" class="button">Teaching</a>
+        <a href="./service.html" class="button">Service</a>
       </nav>
 
       <h1 style="background-color:#e8729d; color:white; text-align:center;" >Ellen Hammatt</h1>
@@ -63,11 +77,9 @@
       <p><img src="photo.jpg" alt="Photo of Ellen Hammatt" style="float:left;width:100%;height:100%; padding: 0px 5px 5px 5px" class="center">
       I am currently a postdoc at TU Wien in the computational logic group.</p>
 
-      <p>I received my PhD in 2025 from Victoria University of Wellington (New Zealand) supervised by Sasha Melnikov and Dan Turetsky. The title of my PhD thesis is "Arriving on time: Punctuality in structures, isomorphisms and 1&ndash;decidability".</p>
-      
-      <!-- <a href="https://tewaharoa.victoria.ac.nz/permalink/64VUW_INST/k63216/alma99181400837602386">thesis</a> -->
+      <p>I received my PhD in 2025 from Victoria University of Wellington (New Zealand) supervised by Sasha Melnikov and Dan Turetsky. The title of my PhD thesis "<a href="https://tewaharoa.victoria.ac.nz/permalink/64VUW_INST/k63216/alma99181400837602386" target="_blank" rel="noopener noreferrer" class="text-link">Arriving on time: Punctuality in structures, isomorphisms and 1&ndash;decidability</a>".</p>
 
-      <p>I received my MSc in 2021 from Victoria University of Wellington (New Zealand) supervised by Rod Downey and Noam Greenberg. The title of my MSc thesis is "Collapse in a transfinite hierarchy of Turing degrees".</p>
+      <p>I received my MSc in 2021 from Victoria University of Wellington (New Zealand) supervised by Rod Downey and Noam Greenberg. The title of my MSc thesis is "<a href="https://tewaharoa.victoria.ac.nz/permalink/64VUW_INST/k63216/alma99179585198402386" target="_blank" rel="noopener noreferrer" class="text-link">Collapse in a transfinite hierarchy of Turing degrees</a>".</p>
 
       <!-- MSc thesis link -->
 
